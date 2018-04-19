@@ -1,0 +1,12 @@
+
+ 1560  conda info --envs
+ 1561  source activate curso_dblib 
+ 1562  clear
+ 1563  conda install -c conda-forge dlib
+ 1564  conda install -c conda-forge opencv
+ 1565  conda install -c conda-forge pillow
+ 1566  pip freeze
+ 1567  pip freeze > Requirements-anaconda.txt
+ 1568  git add .
+ 1569  git commit -m "Inicio"
+ 1570  history > cmd-install.txt
