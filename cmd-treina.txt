@@ -1,0 +1,1 @@
+./imglab -c treinamento_relogios.xml relogios_treinamento/
