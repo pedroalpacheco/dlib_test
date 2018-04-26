@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa672fd8-e567-44d9-af1f-00490dc77dce" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/relogios_treinamento/relogio1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/relogios_treinamento/relogio2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/relogios_treinamento/relogio3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/relogios_treinamento/relogio4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/relogios_treinamento/relogio5.jpg" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/relogios_teste/teste1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/relogios_teste/teste2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/relogios_teste/teste3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/relogios_teste2/relogio1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/relogios_teste2/relogio2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/relogios_teste2/relogio3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/relogios_teste2/relogio4.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/recursos/detector_relogios.svm" afterPath="$PROJECT_DIR$/recursos/detector_relogios.svm" />
-      <change beforePath="$PROJECT_DIR$/recursos/treinamento_relogios.xml" afterPath="$PROJECT_DIR$/recursos/treinamento_relogios.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,12 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="deteccao-relogio-treinamento.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/deteccao-relogio-treinamento.py">
+      <file leaf-file-name="deteccao-relogio-teste.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deteccao-relogio-teste.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="270">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,6 +44,7 @@
         <option value="$PROJECT_DIR$/recursos/treinamento_relogios.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/deteccao-relogio-treinamento.py" />
+        <option value="$PROJECT_DIR$/deteccao-relogio-teste.py" />
       </list>
     </option>
   </component>
@@ -76,12 +78,12 @@
             <path>
               <item name="dlib_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="dlib_test" type="462c0819:PsiDirectoryNode" />
-              <item name="recursos" type="462c0819:PsiDirectoryNode" />
+              <item name="relogios_teste" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dlib_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="dlib_test" type="462c0819:PsiDirectoryNode" />
-              <item name="relogios_treinamento" type="462c0819:PsiDirectoryNode" />
+              <item name="relogios_teste2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -113,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.deteccao-relogio-treinamento">
+  <component name="RunManager" selected="Python.deteccao-relogio-teste">
     <configuration name="alinha-face" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,6 +129,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="dlib_test" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alinha-face.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="deteccao-relogio-teste" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="dlib_test" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deteccao-relogio-teste.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,16 +289,18 @@
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.reconhecimento-yale-teste" />
       <item index="1" class="java.lang.String" itemvalue="Python.alinha-face" />
       <item index="2" class="java.lang.String" itemvalue="Python.deteccao-relogio-treinamento" />
+      <item index="3" class="java.lang.String" itemvalue="Python.deteccao-relogio-teste" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.deteccao-relogio-treinamento" />
-        <item index="1" class="java.lang.String" itemvalue="Python.alinha-face" />
-        <item index="2" class="java.lang.String" itemvalue="Python.reconhecimento-yale-teste" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.deteccao-relogio-teste" />
+        <item index="1" class="java.lang.String" itemvalue="Python.deteccao-relogio-treinamento" />
+        <item index="2" class="java.lang.String" itemvalue="Python.alinha-face" />
+        <item index="3" class="java.lang.String" itemvalue="Python.reconhecimento-yale-teste" />
       </list>
     </recent_temporary>
   </component>
@@ -538,9 +560,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deteccao-relogio-treinamento.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/relogios_teste/teste1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deteccao-relogio-teste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
