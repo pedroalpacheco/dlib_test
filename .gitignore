@@ -109,3 +109,11 @@ recursos
 /fotos/*
 /Imagens-e-recursos/
 /Imagens-e-recursos/*
+!/recursos/treinamento_relogios.xml
+!/recursos/treinamento_relogios_pontos.xml
+!/recursos/treinamento_delirium.xml
+!/recursos/teste_relogios_pontos.xml
+!/recursos/detector_delirium.svm
+!/recursos/descritores_yale.npy
+!/recursos/descritores_rn.npy
+!/recursos/detector_relogios.svm

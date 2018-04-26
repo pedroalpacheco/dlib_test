@@ -4,19 +4,19 @@
 <name>imglab dataset</name>
 <comment>Created by imglab tool.</comment>
 <images>
-  <image file='relogios_treinamento/relogio1.jpg'>
+  <image file='../relogios_treinamento/relogio1.jpg'>
     <box top='394' left='411' width='141' height='139'/>
   </image>
-  <image file='relogios_treinamento/relogio2.jpg'>
+  <image file='../relogios_treinamento/relogio2.jpg'>
     <box top='283' left='247' width='221' height='216'/>
   </image>
-  <image file='relogios_treinamento/relogio3.jpg'>
+  <image file='../relogios_treinamento/relogio3.jpg'>
     <box top='265' left='366' width='243' height='249'/>
   </image>
-  <image file='relogios_treinamento/relogio4.jpg'>
+  <image file='../relogios_treinamento/relogio4.jpg'>
     <box top='325' left='449' width='112' height='107'/>
   </image>
-  <image file='relogios_treinamento/relogio5.jpg'>
+  <image file='../relogios_treinamento/relogio5.jpg'>
     <box top='152' left='205' width='225' height='223'/>
   </image>
 </images>
