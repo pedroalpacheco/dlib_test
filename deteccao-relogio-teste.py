@@ -6,7 +6,7 @@ import glob
 print(dlib.test_simple_object_detector("recursos/teste_relogios.xml", "recursos/detector_relogios.svm"))
 
 detectorRelogio = dlib.simple_object_detector("recursos/detector_relogios.svm")
-for imagem in glob.glob(os.path.join("relogios_teste2", "*.jpg")):
+for imagem in glob.glob(os.path.join("relogios_teste", "*.jpg")):
     img = cv2.imread(imagem)
     objetosDetectados = detectorRelogio(img, 2)
     for d in objetosDetectados:
